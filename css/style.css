@@ -433,7 +433,7 @@ section img{
     width: 50px;
     border-radius: 50px;
     border: 1px solid #f2f2f2;
-    background-image: url(./assets/facebook.png);
+    background-image: url(/assets/facebook.png);
     background-position: center;
     background-size: 40%;
     background-repeat: no-repeat;
@@ -446,8 +446,8 @@ section img{
 }
 
 .redes-icon:nth-of-type(2){
-    background-image: url(./assets/instagram.png);
+    background-image: url(/assets/instagram.png);
 }
 .redes-icon:nth-of-type(3){
-    background-image: url(./assets/whatsapp.png);
+    background-image: url(/assets/whatsapp.png);
 }
