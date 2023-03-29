@@ -1,0 +1,45 @@
+/*header*/
+
+@media(max-width:992px){
+    header .container-fluid{
+
+        padding: 0 5%;
+    }
+}
+
+@media(max-width: 450px){
+    .modal-dialog{
+
+        width: 82%;
+    }
+}
+
+/*pagina contacto responsiva*/
+@media (max-width:640px){
+    .wrap-two-columna{
+        grid-template-columns: 1fr;
+    }
+}
+
+
+/*codigo para formulario de turno responsivo*/
+@media(max-width: 600px){
+    .container-turno{
+        min-width: 280px;
+    }
+    .input{
+        margin-bottom: 15px;
+        width: 100%;
+    }
+    .input:nth-child(2n){
+        justify-content: space-between;
+    }
+    .main-informacion{
+        max-height: 380px;
+        overflow: auto;
+    }
+    .main-informacion::-webkit-scrollbar{
+        width: 0;
+    }
+}
+
