@@ -83,41 +83,57 @@
         </div>
     </header>
     
-   <main>
-    <section class="nosotros my-5">
-        <h1 class="text-center ">Contacto</h1>
-    </section>  
-
-        <section class="section"> 
-            
-            <div class="wrap-two-columna">
-                <div class="columna-half">
-                    <h2>Formulario de Contacto</h2>
-                    <form action="" class="formulario">
-                        <input type="text" placeholder="Nombre y Apellido" name="">
-                        <input type="email" placeholder="ejemplo@email.com" name="">
-                        <textarea name="" placeholder="Mensaje" id="" cols="30" rows="10"></textarea>
-                        <button type="submit">Enviar</button>
-                    </form>
+    <div class="container mt-2 shadow ">
+        <div class="row ">
+            <div class="col-md-4 bg-success p-5 text-white order-sm-first order-last">
+                <h2>Datos de Contacto</h2>
+                <p>Estamos abiertos a cualquier sugerencia o simplemente para tener una charla.</p>
+                <div class="d-flex mt-2">
+                    <i class="bi bi-geo-alt"></i>
+                    <p class="mt-3 ms-3">Dirección: Lima 131. 1° “A” Montserrat. C.A.B.A</p>
                 </div>
-                <div class="columna-half">
-                    <h2>Datos de Contacto</h2>
-                    <ul>
-                        <br>
-                        <li>Teléfono: 11 2552-9729</li>
-                        <br>
-                        <li>Dirección: Lima 131. 1° “A” Montserrat. C.A.B.A</li>
-                        <br>
-                        <li>Horarios de atención: Lunes a Viernes de 9 a 19hs Sabados de 10 a 15hs</li>
-                    </ul>
+                <div class="d-flex mt-2">
+                    <i class="bi bi-telephone-forward"></i>
+                    <p class="mt-4 ms-3">Teléfono: 11 2552-9729</p>
                 </div>
-
-            </div>   
-        </section>
-   </main>
+                <div class="d-flex mt-2">
+                    <i class="bi bi-envelope"></i>
+                    <p class="mt-4 ms-3">Email: spa@spa.com</p>
+                </div>
+                
+            </div>
+            <div class="col-md-8 p-5 ">
+                <h2>Formulario de Contacto</h2>
+                <form class="row g-3 contactForm mt-4">
+                    <div class="col-12">
+                      <label for="inputNombre" class="form-label">Nombre y Apellido</label>
+                      <input type="text" class="form-control"  name="" id="" required>
+                    </div>
+                   
+                    <div class="col-12">
+                      <label for="inputTelefono" class="form-label">Telefono</label>
+                      <input type="number" class="form-control"  name="" id="" required>
+                    </div>
+                    <div class="col-12">
+                        <label for="inputEmail" class="form-label">Email</label>
+                        <input type="email" class="form-control" placeholder="ej: spa@spa.com" id="" required>
+                      </div>
+                    <div class="col-12">
+                    
+                      <label for="inputComentario" class="form-label">Comentario</label>
+                      <textarea class="form-control" placeholder="Escribe aqui tu comentario" ></textarea>
+                    </div>
+                    
+                    <div class="col-12">
+                      <button type="submit" class="btn btn-primary mt-3">Enviar</button>
+                    </div>
+                  </form>
+            </div>
+        </div>
+    </div>
 
 <!--Footer-->
-<footer class="container-fluid">
+<footer class="container-fluid mt-2">
     <div class="row p-5 pb-2 bg-secondary text-white ">
         <div class="col-xs-12 col-md-6 col-lg-3">
             <img src="../assets/logo.jpeg" alt="" class="logo">

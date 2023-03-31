@@ -83,11 +83,11 @@
         </div>
     </header>
 
-    <section class="nosotros my-5">
+    <section class="turno my-4">
         <h1 class="text-center ">Solicitar Turno</h1>
     </section>  
 
-   <main class="body">
+   <!--<main class="body">
    <div class="container-turno">
         
         <form action="">
@@ -151,11 +151,74 @@
         </div>
         </form>
    </div>   
-    </main>
+    </main> -->
+   
+    <section class="container my-2 bg-success  text-light p-2">
+     <form class="row g-3 p-3">
 
+         <div class="col-md-6">
+             <label for="validationNombre" class="form-label">Nombre</label>
+             <input type="text" class="form-control" id="validationNombre" placeholder="Nombre" required>
+         </div>
+         <div class="col-md-6">
+             <label for="validatioApellido" class="form-label">Apellido</label>
+             <input type="text" class="form-control" id="validatioApellido" placeholder="Apellido" required>
+         </div>
+           
+         <div class="col-md-6">
+           <label for="inputEmail" class="form-label">Email</label>
+           <input type="email" class="form-control" id="inputEmail" placeholder="ejemplo@email.com" required>
+         </div>
+
+         <div class="col-md-6">
+           <label for="inputTelefono" class="form-label">Telefono / WHATSAPP</label>
+           <input type="number" class="form-control" id="inputTelefono" placeholder="1157482922" required> 
+         </div>
+
+         <div class="col-md-6">
+            <label for="inputTratamientos" class="form-label">Tratamientos</label>
+            <select id="inputTratamientos" class="form-select" required>
+                <option value="">Seleccionar</option>
+                <option value="">Tratamientos Corporales</option>
+                <option value="">Tratamientos Faciales</option>
+                <option value="">Masajes</option>
+            </select>
+          </div>
+
+          <div class="col-md-6">
+            <label for="inputDate" class="form-label">Fecha</label>
+            <input type="date" class="form-control" id="inputDate" required>
+          </div>
+
+          <div class="col-md-6">
+            <label for="inputHorario" class="form-label">Horarios</label>
+            <select id="inputHorario" class="form-select" required>
+                <option value="">Seleccionar</option>
+                <option value="">Mañana</option>
+                <option value="">Tarde</option>
+                <option value="">Noche</option>
+            </select>
+          </div>
+
+          <div class="col-md-6">
+            <label for="inputDate" class="form-label">Fecha</label>
+            <input type="date" class="form-control" id="inputDate" required>
+          </div>
+
+          <div class="col-12">
+                    
+            <label for="inputComentario" class="form-label">Comentario Adicional (OPCIONAL)</label>
+            <textarea class="form-control" placeholder="Escribe aqui tu comentario" ></textarea>
+          </div>
+
+         <div class="col-12">
+           <button type="submit" class="btn btn-primary col-12">Solicitar Turno</button>
+         </div>
+       </form>
+    </section>
 
   <!--Footer-->
-  <footer class="container-fluid ">
+  <footer class="container-fluid mt-2">
     <div class="row p-5 pb-2 bg-secondary text-white ">
         <div class="col-xs-12 col-md-6 col-lg-3">
             <img src="../assets/logo.jpeg" alt="" class="logo">

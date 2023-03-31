@@ -260,69 +260,7 @@ header{
 }
 
 /*Contacto*/
-main{
-    .section{
-        max-width: 1200px;
-        margin: 3rem auto;
-        padding: 1rem;
 
-        .hero-page{
-            background: linear-gradient(to bottom, rgb(0 0 0 / .5), rgb(0 0 0 / .5 )), url(/assets/belleza-spa.jpg) center;
-            background-size: cover;
-            height: 200px;
-            margin-top: 50px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-    
-            .wrap-hero-page{
-                color: #fff;
-                padding: 1rem;
-            }
-        }
-                
-        .wrap-two-columna{
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            column-gap: 4rem;
-
-            .formulario{
-                display: flex;
-                flex-flow: column;
-
-                input{
-                    margin: .5rem 0;
-                    padding: .5rem .2rem;
-                }
-                textarea{
-                    margin: .5rem 0;
-                    padding: .5rem .2rem;
-                }
-
-                button{
-                    width: fit-content;
-                    border: none;
-                    padding: .5rem 6rem;
-                    background-color: #4ad295;
-                    color: #fff;
-                    font-size: 1.1rem;
-                }
-            }
-
-            .columna-half{
-                ul{
-                    padding: 0;
-                }
-                li{
-                    list-style: none;
-                }
-            }
-        }
-    }   
-
-    
-    
-}
 
 /*pagina solicitar turno*/
 .body{
