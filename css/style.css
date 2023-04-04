@@ -354,27 +354,48 @@ main .section .wrap-two-columna .columna-half li {
   align-items: center;
   flex-wrap: wrap;
 }
+<<<<<<< HEAD
 
 .redes-icon{
     height: 50px;
     width: 50px;
     border-radius: 50px;
     border: 1px solid #f2f2f2;
-    background-image: url(/assets/facebook.png);
+    background-image: url(../assets/facebook.png);
     background-position: center;
     background-size: 40%;
     background-repeat: no-repeat;
     margin: 1rem;
+=======
+.container-fluid .redes-container .redes-icon {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  border: 1px solid #f2f2f2;
+  background-image: url(../assets/facebook.png);
+  background-position: center;
+  background-size: 40%;
+  background-repeat: no-repeat;
+  margin: 1rem;
+>>>>>>> dev
 }
 .container-fluid .redes-container .redes-icon:hover {
   background-color: #64d6f4;
 }
+<<<<<<< HEAD
 
 .redes-icon:nth-of-type(2){
-    background-image: url(/assets/instagram.png);
+    background-image: url(../assets/instagram.png);
 }
 .redes-icon:nth-of-type(3){
-    background-image: url(/assets/whatsapp.png);
+    background-image: url(../assets/whatsapp.png);
+=======
+.container-fluid .redes-container .redes-icon:nth-of-type(2) {
+  background-image: url(../assets/instagram.png);
+}
+.container-fluid .redes-container .redes-icon:nth-of-type(3) {
+  background-image: url(../assets/whatsapp.png);
+>>>>>>> dev
 }
 
 /*media queris*/
