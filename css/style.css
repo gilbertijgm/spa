@@ -361,7 +361,7 @@ main .section .wrap-two-columna .columna-half li {
     width: 50px;
     border-radius: 50px;
     border: 1px solid #f2f2f2;
-    background-image: url(../assets/facebook.png);
+    background-image: url(/assets/facebook.png);
     background-position: center;
     background-size: 40%;
     background-repeat: no-repeat;
